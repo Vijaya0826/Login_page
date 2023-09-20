@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/05/Desktop-gaming-backgrounds-1080p-dosh-tosh.jpg);
+    background-size: cover;
+    background-position: centre;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    background: transparent;
+    border-radius: 10px rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, .2);*/
+    color: #fff;
+    /*border-radius: 10px;*/
+    padding: 30px;
+    gap: 10px;
+    padding-bottom: 50px;
+    
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.field input{
+    width: 100%;
+    border: none;
+    outline: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+.input:focus{
+    border-color: #000;
+}
+.button{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+    /*background: transparent;*/
+}
+.button:hover{
+    opacity: 1;
+}
